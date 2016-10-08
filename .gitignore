@@ -3,4 +3,5 @@
 node_modules/
 dist/
 build/
+vcs_live/js/vcs.js
 *.egg-info
