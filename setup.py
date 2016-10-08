@@ -6,7 +6,7 @@ import os
 
 # Build the JS so vcs.js is ready for packaging
 os.chdir("js")
-subprocess.call("npm run build", shell=True)
+subprocess.check_call("npm run build", shell=True)
 os.chdir("..")
 
 
