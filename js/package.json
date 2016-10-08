@@ -1,0 +1,27 @@
+{
+  "name": "vcs.js",
+  "version": "1.0.0",
+  "description": "Javascript Bindings for Python VCS Visualization Control System",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -o ../vcs_live/js/vcs.js -t [ babelify --presets [ es2015 ] ]"
+  },
+  "author": "Sam Fries",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UV-CDAT/vcs-live.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UV-CDAT/vcs-live/issues"
+  },
+  "homepage": "https://github.com/UV-CDAT/vcs-live#readme"
+}

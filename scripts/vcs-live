@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+import vcs_live
+import tornado.ioloop
+
+app = vcs_live.get_application()
+app.listen(8888)
+tornado.ioloop.IOLoop.current().start()
