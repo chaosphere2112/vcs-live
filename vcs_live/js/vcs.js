@@ -10,7 +10,12 @@ module.exports = init;
 },{}],2:[function(require,module,exports){
 "use strict";
 
-canvas = require("./canvas.js");
-module.exports = canvas.init;
+var canvas = require("./canvas.js");
+
+window.VCS = {
+	"init": canvas
+};
+
+module.exports = window.VCS;
 
 },{"./canvas.js":1}]},{},[2]);

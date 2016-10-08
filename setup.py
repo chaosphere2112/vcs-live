@@ -15,5 +15,5 @@ setup(
     version="0.1",
     packages=find_packages(),
     scripts=glob.glob("scripts/*"),
-    package_data={"vcs_live": ["js/vcs.js"]}
+    package_data={"vcs_live": ["js/vcs.js", "html/sample.html"]}
 )

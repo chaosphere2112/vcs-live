@@ -1,2 +1,7 @@
-canvas = require("./canvas.js");
-module.exports = canvas.init;
+var canvas = require("./canvas.js");
+
+window.VCS = {
+	"init": canvas
+};
+
+module.exports = window.VCS
